@@ -17,17 +17,7 @@ const driversByRevenue = function(){
   
 }
 
-const driversByRevenue = function (drivers) {
-  return drivers.slice().sort(function (driverOne, driverTwo) {
-    return driverOne.revenue - driverTwo.revenue;
-  });
-};
 
-const driversByName = function (drivers) {
-  return drivers.slice().sort(function (driverOne, driverTwo) {
-    return driverOne.name.localeCompare(driverTwo.name);
-  });
-};
 
 
 const totalRevenue = function (drivers){
